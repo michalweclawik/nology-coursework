@@ -1,0 +1,60 @@
+.top {
+  height: 60px;
+  background-color: black;
+  width: 300px;
+}
+.middle {
+  height: 60px;
+  background-color: red;
+  width: 300px;
+}
+.bottom {
+  height: 60px;
+  background-color: yellow;
+  width: 300px;
+}
+.germany {
+  margin: auto;
+  margin-top: 50px;
+  width: 300px;
+  height: auto;
+}
+.germany:hover .top {
+  background-color: red;
+}
+.germany:hover .middle {
+  background-color: white;
+}
+.germany:hover .bottom {
+  background-color: green;
+}
+
+.first {
+  height: 180px;
+  width: 100px;
+  background-color: blue;
+}
+.second {
+  height: 180px;
+  width: 100px;
+  background-color: white;
+}
+.third {
+  height: 180px;
+  width: 100px;
+  background-color: red;
+}
+.french {
+  margin: auto;
+  margin-top: 50px;
+  display: flex;
+  width: 300px;
+  height: auto;
+}
+
+.french:hover .first {
+  background-color: green;
+}
+.french:hover .third {
+  background-color: orange;
+}
